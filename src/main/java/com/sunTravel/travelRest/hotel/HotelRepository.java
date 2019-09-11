@@ -1,4 +1,7 @@
 package com.sunTravel.travelRest.hotel;
 
-public interface HotelRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface HotelRepository extends CrudRepository<Hotel, Integer> {
+
 }
